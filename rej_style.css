@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+	color: #c3a656;
+}
+
+#logodiv{
+	width: 100px;
+	margin: 10px auto;
+}
+
+#logo{
+	width: 100px;
+	padding: 0px;
+	margin: 0px;
+}
+
+form , #Udane{
+width: 500px;
+display: block;
+margin: 20px auto auto auto;
+border: 1px solid gold;
+padding: 15px;
+}
+
+p {
+	font-family: 'Fondamento', cursive;
+	color: #c3a656;
+}
+
+button {
+	font-family: 'Fondamento', cursive;
+	float:right;
+}

@@ -1,0 +1,92 @@
+body {
+		background-color: black;
+		color: #c3a656;
+		font-family: 'Fondamento', cursive;
+	}
+
+	#lupa {
+		display: inline-block;
+		width: 5%;
+		margin: 0px 3% 1% 1%;
+		float: right;
+	}
+
+	#lupka {
+		width: 100%;
+		max-width: 40px;
+		min-width: 15px;
+		}
+		
+	#logo {
+		width: 70%;
+		max-width: 420px; 
+		min-width: 200px; 
+		margin-top: 2%;
+		margin-bottom: 1%;
+		margin-left: auto;
+		margin-right: auto; } 
+		
+	#logotyp {
+		width: 100%; 
+		max-width: 420px;
+		}
+		
+	#wybor {
+		width: 70%;
+		max-height: 150px;
+		min-width: 200px;
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+		
+	.symbol {
+		display: inline-block;
+		margin-left:2%;
+		margin-right: 2%;
+		min-width: 10px;
+		max-width: 80px;
+	}
+	
+	.imgsymbol {
+		width: 100%;
+		min-width: 20px;
+		max-width: 80px;
+		opacity: 1;
+		transition: opacity .2s ease-out;
+		-moz-transition: opacity .2s ease-out;
+		-webkit-transition: opacity .2s ease-out;
+		-o-transition: opacity .2s ease-out; }
+	
+	.imgsymbol:hover {
+	opacity: 0.5; }
+	
+	.text {
+	display: block;
+	text-align: center;
+	clear: both;
+	}
+	
+	#ramka_glowna {
+		background-color: brown;
+		width: 100%;
+	}
+	
+	#pasek_lewy {
+		background-color: green;
+		width: 300px;
+	}
+	
+	@media screen and (max-width:730px) {
+		.symbol { width: 17%; }
+	}
+		.text { font-size: 12px; }
+	
+	@media screen and (min-width:730px) and (max-width:1020px) {
+		.symbol { width: 18%; }
+	}
+		.text { font-size: 13px; }
+	
+	@media screen and (min-width: 1020px) {
+		.symbol { width: 25%; }
+		.text {font-size: 18px; }

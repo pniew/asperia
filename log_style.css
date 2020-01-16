@@ -1,0 +1,34 @@
+body {
+	background-color: black;
+	color: #c3a656;
+}
+
+
+#logodiv{
+	width: 100px;
+	margin: 10px auto;
+}
+
+#logo{
+	width: 100px;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+form, #Powodzenie {
+width: 500px;
+margin: 20px auto;
+border: 2px gold;
+padding: 15px;
+border: 1px solid gold;
+}
+
+p {
+	font-family: 'Fondamento', cursive;
+}
+
+button {
+	font-family: 'Fondamento', cursive;
+	float:right;
+}

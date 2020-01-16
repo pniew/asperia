@@ -1,0 +1,453 @@
+body {
+	background-color: black;
+	color: gold;
+}
+
+#tlo {
+	display: block;
+}
+
+#log {
+			display: inline-block;
+			width: 5%;
+			margin: 0px 3% 1% 1%;
+			float: right;
+		}
+		
+	#login {
+			width: 100%;
+			max-width: 40px;
+			min-width: 15px;
+		}
+
+#logo {
+	display: block;
+	}
+	
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+#kron, #enc, #gal, #for 
+	{
+		opacity: 1;
+		transition: opacity .2s ease-out;
+		-moz-transition: opacity .2s ease-out;
+		-webkit-transition: opacity .2s ease-out;
+		-o-transition: opacity .2s ease-out; 
+		}
+
+
+#kron:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}
+#enc:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}
+#gal:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}
+#for:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}
+	
+	
+
+
+	
+	@media screen and (max-width: 390px) {
+		#logo { 
+			width: 70%;
+			max-width: 640px;
+			min-width: 300px; 
+			margin-left: auto;
+			margin-right: auto;
+			}
+			
+		#logotyp {
+			width: 100%; 
+			max-width: 550px;
+			}
+		
+		#menu {
+			width: 80%;
+			min-width: 290px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+	
+		#kron {
+			height: 50px;
+			margin: 5px 15px 7px 5px;
+		}
+		#enc {
+			height: 50px;
+			margin: 5px 5px 7px 5px;
+		}
+		#gal {
+			height: 50px;
+			margin: 10px 15px 5px 5px;
+		}
+		#for{
+			height: 50px;
+			margin: 10px 5px 5px 40px;
+		}
+		
+		
+	}
+	
+	
+	@media screen and (min-width:385px) and (max-width:545px){
+		#logo {
+			width: 70%;
+			max-width: 640px; 
+			min-width: 300px; 
+			margin-left: auto;
+			margin-right: auto; } 
+		#logotyp {
+			width: 100%; 
+			max-width: 640px;
+		}
+		
+		#menu {
+			width: 75%;
+			min-width: 350px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+	
+		
+		#kron {
+			height: 60px;
+			margin: 5px 15px 15px 5px;
+		}
+		#enc {
+			height: 60px;
+			margin: 5px 15px 15px 5px;
+		}
+		#gal {
+			height: 60px;
+			margin: 5px 25px 5px 5px;
+		}
+		#for{
+			height: 60px;
+			margin: 5px 5px 5px 40px;
+		}
+		
+	}
+	
+	@media screen and (min-width:545px) and (max-width:605px){
+		#logo {
+			width: 70%;
+			max-width: 640px; 
+			min-width: 300px; 
+			margin-left: auto;
+			margin-right: auto; } 
+		#logotyp {
+			width: 100%; 
+			max-width: 640px;
+		}
+		
+		#menu {
+			width: 75%;
+			min-width: 350px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+	
+		
+		#kron {
+			height: 70px;
+			margin: 5px 25px 15px 20px;
+		}
+		#enc {
+			height: 70px;
+			margin: 5px 15px 15px 7px;
+		}
+		#gal {
+			height: 70px;
+			margin: 5px 70px 15px 20px;
+		}
+		#for{
+			height: 70px;
+			margin: 5px 15px 5px 10px;
+		}
+		
+	}
+	
+	@media screen and (min-width:605px) and (max-width:770px){
+		#logo {
+			width: 70%;
+			max-width: 640px; 
+			min-width: 300px; 
+			margin-left: auto;
+			margin-right: auto; } 
+	
+		#logotyp {
+			width: 100%; 
+			max-width: 640px;
+		}
+		
+		#menu {
+			width: 75%;
+			min-width: 350px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 10%;
+			padding-right: 5%;
+		}
+		
+		
+		#kron {
+			height: 75px;
+			margin: 5px 50px 30px 40px;
+		}
+		#enc {
+			height: 75px;
+			margin: 5px 10px 30px 10px;
+		}
+		#gal {
+			height: 75px;
+			margin: 5px 105px 15px 40px;
+		}
+		#for{
+			height: 75px;
+			margin: 5px 0px 5px 10px;
+		}
+	
+		
+	}
+	
+	@media screen and (min-width:770px) and (max-width:825px){
+		#logo {
+			width: 70%;
+			max-width: 640px; 
+			min-width: 300px; 
+			margin-left: auto;
+			margin-right: auto; } 
+	
+		#logotyp {
+			width: 100%; 
+			max-width: 640px;
+		}
+		
+		#menu {
+			width: 75%;
+			min-width: 350px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 10%;
+			padding-right: 5%;
+		}
+		
+		
+		#kron {
+			height: 75px;
+			margin: 5px 10px 15px -20px;
+		}
+		#enc {
+			height: 75px;
+			margin: 5px 10px 15px 10px;
+		}
+		#gal {
+			height: 75px;
+			margin: 5px 10px 15px 10px;
+		}
+		#for{
+			height: 75px;
+			margin: 5px 0px 5px 10px;
+		}
+	
+		
+	}
+	
+	@media screen and (min-width:825px) and (max-width:950px){
+		#logo {
+			width: 70%;
+			max-width: 640px; 
+			min-width: 300px; 
+			margin-left: auto;
+			margin-right: auto; } 
+	
+		#logotyp {
+			width: 100%; 
+			max-width: 640px;
+		}
+		
+		#menu {
+			width: 75%;
+			min-width: 350px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 10%;
+			padding-right: 5%;
+		}
+		
+		
+		#kron {
+			height: 75px;
+			margin: 5px 25px 15px -5px;
+		}
+		#enc {
+			height: 75px;
+			margin: 5px 25px 15px 10px;
+		}
+		#gal {
+			height: 75px;
+			margin: 5px 20px 15px 10px;
+		}
+		#for{
+			height: 75px;
+			margin: 5px 0px 5px 8px;
+		}
+	
+		
+	}
+	
+	@media screen and (min-width:950px) and (max-width:1100px){
+		#logo {
+			width: 70%;
+			max-width: 640px; 
+			min-width: 300px; 
+			margin-left: auto;
+			margin-right: auto; } 
+	
+		#logotyp {
+			width: 100%; 
+			max-width: 640px;
+		}
+		
+		#menu {
+			width: 75%;
+			min-width: 350px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 10%;
+			padding-right: 5%;
+		}
+		
+		
+		#kron {
+			height: 75px;
+			margin: 5px 40px 15px 15px;
+		}
+		#enc {
+			height: 75px;
+			margin: 5px 40px 15px 10px;
+		}
+		#gal {
+			height: 75px;
+			margin: 5px 40px 15px 10px;
+		}
+		#for{
+			height: 75px;
+			margin: 5px 0px 5px 10px;
+		}
+	
+		
+	}
+		
+	
+	@media screen and (min-width:1100px) and (max-width:1366px){
+		
+			#logo {
+			width: 70%;
+			max-width: 640px; 
+			min-width: 300px; 
+			margin-left: auto;
+			margin-right: auto; } 
+			
+			#logotyp {
+			width: 100%; 
+			max-width: 640px; }
+			
+			#menu {
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			}
+			
+		#kron {
+			height: 80px;
+			margin: 5px 50px 15px 15px;
+		}
+		#enc {
+			height: 80px;
+			margin: 5px 50px 15px 10px;
+		}
+		#gal {
+			height: 80px;
+			margin: 5px 50px 15px 10px;
+		}
+		#for{
+			height: 80px;
+			margin: 5px 0px 5px 10px;
+		}
+		}
+	
+	
+	
+	@media screen and (min-width:1366px) {
+		#tlo {
+			width: 1366px;
+			margin-left: auto;
+			margin-right: auto;}
+			
+		
+		#logo {
+			width: 630px; 
+			margin-left: auto;
+			margin-right: auto; } 
+			
+		#logotyp {
+			width: 100%; 
+			max-width: 640px;
+		}
+			
+		#menu {
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.li a {
+			display: inline;
+		}
+		
+
+		#kron {
+			height: 80px;
+			margin: 5px 50px 15px 15px;
+		}
+		#enc {
+			height: 80px;
+			margin: 5px 50px 15px 10px;
+		}
+		#gal {
+			height: 80px;
+			margin: 5px 50px 15px 10px;
+		}
+		#for{
+			height: 80px;
+			margin: 5px 0px 5px 10px;
+		}	
+		
+		
+	}
+	
+	
+	
